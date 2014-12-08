@@ -21,9 +21,7 @@
     <import resource="hibernate.xml"/>
     
     <tx:annotation-driven transaction-manager="txManager"/>
-	
-	<!-- <bean id="restApiController" class="com.xpanxion.restservice.controllers.RestApiController">
-	</bean> -->
+    
 	
 	<bean id="txManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
   		<property name="dataSource" ref="dataSource"/>

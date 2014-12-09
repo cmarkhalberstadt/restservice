@@ -100,7 +100,8 @@ public class RestApiController {
 	 * Will return null if the given Username is already in the database and, therefore, is not available.
 	 */
 	@RequestMapping(value= "/api/user", method=RequestMethod.POST, produces="application/json", consumes="application/json")
-	public @ResponseBody UserBean addAUserToTheDatabase(@RequestBody UserBean request){
+	@ResponseBody
+	public  UserBean addAUserToTheDatabase(@RequestBody UserBean request){
 		UserBean checkFromDatabase = this.userService.getUserWithUsername(request.getUsername());
 		if (checkFromDatabase != null){
 			if (!checkFromDatabase.getUsername().isEmpty()){

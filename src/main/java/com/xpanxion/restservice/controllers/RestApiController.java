@@ -25,7 +25,7 @@ import com.xpanxion.restservice.service.UserService;
 @Controller
 public class RestApiController {
 	private UserService userService;
-	// test
+	
 	/**
 	 * Returns a list of user beans as a JSON object
 	 * @return

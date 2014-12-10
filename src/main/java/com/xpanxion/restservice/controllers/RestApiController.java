@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.xpanxion.springmvctutorial.dto.beans.ChangeUserPasswordBean;
 import com.xpanxion.springmvctutorial.dto.beans.UserBean;
-import com.xpanxion.restservice.service.UserService;
+import com.xpanxion.springmvctutorial.service.UserService;
 
 /**
  * RESTFul Webservice Controller

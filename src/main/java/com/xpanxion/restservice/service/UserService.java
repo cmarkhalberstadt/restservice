@@ -6,9 +6,9 @@ import java.util.List;
 
 
 
-import com.xpanxion.restservice.dao.UserDao;
-import com.xpanxion.restservice.dto.beans.UserBean;
-import com.xpanxion.restservice.dto.entity.UserEntity;
+import com.xpanxion.springmvctutorial.dao.UserDao;
+import com.xpanxion.springmvctutorial.dto.beans.UserBean;
+import com.xpanxion.springmvctutorial.dto.entity.UserEntity;
 
 /**
  * A service dealing with User Test Beans

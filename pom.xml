@@ -189,7 +189,28 @@
 	        <artifactId>httpclient</artifactId>
 	        <version>4.3.6</version>
         </dependency> -->
+        
+        <!-- Dependencies from custom created jar files -->
+		<dependency>
+		    <artifactId>springmvctutorial.dto.beans</artifactId>
+		    <groupId>com.xpanxion</groupId>
+		    <version>0.0.1</version>
+		    <scope>compile</scope>
+		</dependency>
 		
+		<dependency>
+		    <artifactId>springmvctutorial.dto.entity</artifactId>
+		    <groupId>com.xpanxion</groupId>
+		    <version>0.0.1</version>
+		    <scope>compile</scope>
+		</dependency>
+		
+		<dependency>
+		    <artifactId>springmvctutorial.dao</artifactId>
+		    <groupId>com.xpanxion</groupId>
+		    <version>0.0.1</version>
+		    <scope>compile</scope>
+		</dependency>
 		
 
 	</dependencies>	

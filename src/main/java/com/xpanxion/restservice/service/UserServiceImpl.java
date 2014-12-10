@@ -9,9 +9,9 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.xpanxion.restservice.dao.UserDao;
-import com.xpanxion.restservice.dto.beans.UserBean;
-import com.xpanxion.restservice.dto.entity.UserEntity;
+import com.xpanxion.springmvctutorial.dao.UserDao;
+import com.xpanxion.springmvctutorial.dto.beans.UserBean;
+import com.xpanxion.springmvctutorial.dto.entity.UserEntity;
 
 /**
  * Implementation of the user test service interface. 

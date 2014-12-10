@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.xpanxion.restservice.dto.beans.ChangeUserPasswordBean;
-import com.xpanxion.restservice.dto.beans.UserBean;
+import com.xpanxion.springmvctutorial.dto.beans.ChangeUserPasswordBean;
+import com.xpanxion.springmvctutorial.dto.beans.UserBean;
 import com.xpanxion.restservice.service.UserService;
 
 /**

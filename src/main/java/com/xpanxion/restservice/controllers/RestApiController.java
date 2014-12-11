@@ -33,7 +33,6 @@ public class RestApiController {
 	@RequestMapping(value="/api/users", method=RequestMethod.GET)
 	@ResponseBody
 	public List<UserBean> getAllUsers_ReturnAsJSONResponseBody(){
-		System.out.println("New Project get all users executed.");
 		return this.userService.getUserBeans();
 	}
 	

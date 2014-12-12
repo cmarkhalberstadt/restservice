@@ -32,7 +32,7 @@ public class RestApiController {
 	 */
 	@RequestMapping(value="/api/users", method=RequestMethod.GET)
 	@ResponseBody
-	public List<UserBean> getAllUsers_ReturnAsJSONResponseBody(){
+	public List<UserBean> getAllUsersAndReturnAsJSONResponseBody(){
 		return this.userService.getUserBeans();
 	}
 	
